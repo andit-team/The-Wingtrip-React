@@ -5,10 +5,14 @@ import { Link } from "react-router-dom";
 import { HeaderData } from "./HeaderData";
 // import logo
 import Logo from "../assets/img/navbar-logo.png";
-import Logo2 from "../assets/img/footer-logo.png"
+import Logo2 from "../assets/img/footer-logo.png";
 // import icon
 import Icon1 from "../assets/img/icon/navbar-search.png";
 import Icon2 from "../assets/img/icon/menubar.png";
+import Icon3 from "../assets/img/icon/facebook-foot.png";
+import Icon4 from "../assets/img/icon/facebook-foot.png";
+import Icon5 from "../assets/img/icon/instagram-foot.png";
+import Icon6 from "../assets/img/icon/linkedin-foot.png";
 
 const Header = () => {
   return (
@@ -56,7 +60,10 @@ const Header = () => {
                                   <ul className="dropdown-menu">
                                     {item1.subMenuitems.map((item2, index2) => (
                                       <li className="nav-item" key={index2}>
-                                        <Link to={item2.linkL} className="nav-link">
+                                        <Link
+                                          to={item2.linkL}
+                                          className="nav-link"
+                                        >
                                           {item2.subItem}
                                         </Link>
                                       </li>
@@ -72,19 +79,19 @@ const Header = () => {
                   </ul>
                   <div className="others-options d-flex align-items-center">
                     <div className="option-item">
-                      <a href="!#" className="search-box">
+                      <Link to="!#" className="search-box">
                         <img src={Icon1} alt="icon" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="option-item">
-                      <a
+                      <Link
                         href="#!"
                         data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasRight"
                         aria-controls="offcanvasRight"
                       >
                         <img src={Icon2} alt="icon" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -96,9 +103,14 @@ const Header = () => {
               <div className="dot-menu">
                 <div className="others-options d-flex align-items-center">
                   <div className="option-item">
-                    <a href="!#" className="search-box">
-                      <img src={Icon1} alt="icon" />
-                    </a>
+                    <Link
+                      to="#!"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                    >
+                      <img src={Icon2} alt="icon" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -133,7 +145,9 @@ const Header = () => {
               </div>
               <div className="top_Bar_left_text">
                 <h5>
-                  <a href="mailto:donation@domain.com">donation@domain.com</a>
+                  <Link href="mailto:donation@domain.com">
+                    donation@domain.com
+                  </Link>
                 </h5>
                 <h6>Get free estimate</h6>
               </div>
@@ -144,7 +158,7 @@ const Header = () => {
               </div>
               <div className="top_Bar_left_text">
                 <h5>
-                  <a href="tel:+011-234-567-89">+011 234 567 89</a>
+                  <Link to="tel:+011-234-567-89">+011 234 567 89</Link>
                 </h5>
                 <h6>Sat to Fri: 8:00am to 10pm</h6>
               </div>
@@ -160,12 +174,28 @@ const Header = () => {
             </div>
             <div className="offcanvas_follow_area">
               <h5>Follow Us</h5>
-              {/* <ul>
-                        <li><a href="#!"><img src="assets/img/icon/facebook-foot.png" alt="icon"></a></li>
-                        <li><a href="#!"><img src="assets/img/icon/twiter-foot.png" alt="icon"></a></li>
-                        <li><a href="#!"><img src="assets/img/icon/instagram-foot.png" alt="icon"></a></li>
-                        <li><a href="#!"><img src="assets/img/icon/linkedin-foot.png" alt="icon"></a></li>
-                    </ul> */}
+              <ul>
+                <li>
+                  <Link to="#!">
+                    <img src={Icon3} alt="icon" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#!">
+                    <img src={Icon4} alt="icon" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#!">
+                    <img src={Icon5} alt="icon" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#!">
+                    <img src={Icon6} alt="icon" />
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
