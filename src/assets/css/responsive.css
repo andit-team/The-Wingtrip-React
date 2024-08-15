@@ -1,0 +1,794 @@
+@media (max-width: 1600px) {
+    .conference-img img {
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1470px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1470px;
+    }
+
+}
+
+@media (max-width:1440px) {
+    .home-banner-img {
+        position: initial;
+    }
+
+    #homepage-banner {
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+
+    .home-banner-text h1 {
+        line-height: 88px;
+        font-size: 70px;
+        color: #fff;
+    }
+
+    #event-organize-section {
+        padding-top: 109px;
+    }
+
+    .program-pills .program-link {
+        margin-bottom: 20px;
+    }
+
+
+    .blog-padding-right {
+        border-right: none;
+        padding-right: 0px;
+        padding-bottom: 8px;
+    }
+
+
+    .blog-card-bottom-wraper {
+        display: block;
+    }
+
+    .event-information-box {
+        display: block;
+    }
+
+    .event-information-text h3 {
+        padding: 8px;
+    }
+
+    .conference-img img {
+        width: 70%;
+    }
+
+    .footer-navitem-area {
+        padding-left: 0px;
+    }
+
+    .counter-details-home-two {
+        padding: 34px 50px;
+    }
+
+    .banner-clock-area {
+        gap: 14px;
+    }
+
+    .program-schedule-wraper .nav {
+        justify-content: center;
+    }
+
+    .about-list-item {
+        gap: 2px;
+    }
+
+}
+
+@media (max-width:1366px) {
+    .event-organize-highlight-text h3 {
+        font-weight: 400;
+        line-height: 34px;
+        padding: 0 10px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .home-banner-text h1 {
+        line-height: 70px;
+        font-size: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 49px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 66px;
+    }
+
+    .event-organize-highlight-text h3 {
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .conference-img {
+        width: 65%;
+    }
+
+    .about-head h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .counter-details-home-two {
+        margin-bottom: 30px;
+    }
+
+    .slider-slide-btn .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 63%;
+        right: 27%;
+    }
+
+    .slider-slide-btn .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 63%;
+        left: 27%;
+    }
+
+
+    .footer-contact-item a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: var(--theme-color-two);
+    }
+
+    .news-list-text h2 {
+        padding: 6px 0;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .news-details-head-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .news-details-head-text {
+        padding: 30px;
+    }
+
+    .news-details-gallery-card {
+        margin-top: 30px;
+    }
+
+    .team-details-head {
+        display: block;
+    }
+
+    .post-comment-item {
+        display: block;
+    }
+
+    .post-comment-text {
+        padding-top: 16px;
+        padding-left: 0;
+    }
+
+    .post-comment-text p {
+        padding-top: 4px;
+    }
+
+    .news-single-card {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .footer-navitem-area h3{
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    #common-banner {
+        padding: 150px 0px 120px 0px;
+    }
+
+    .product_d_para{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #homepage-banner {
+        padding: 150px 0px 100px 0px;
+    }
+
+    .home-banner-img {
+        display: none;
+    }
+
+    .home-banner-text h1 {
+        line-height: 76px;
+        font-size: 61px;
+    }
+
+    .home-banner-btn {
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .home-banner-text {
+        text-align: center;
+        padding-right: 0;
+    }
+
+
+    #event-organize-section {
+        padding: 85px 0 100px 0;
+    }
+
+    .event-organize-highlight-text h3 {
+        font-weight: 400;
+        line-height: 34px;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .event-agenda-card {
+        margin-bottom: 30px;
+    }
+
+
+    .team-padding-card {
+        margin-top: 0px;
+    }
+
+    .team-card {
+        margin-bottom: 30px;
+    }
+
+    .price-card {
+        margin: 10px;
+    }
+
+    .top-event-card {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-4.col-md-6.col-sm-12.col-middle {
+        padding: 0px 0px 0px 0px;
+        background: transparent;
+        margin-top: -2px;
+    }
+
+    .price-card-two {
+        background-color: var(--theme-color-two);
+        color: #fff;
+        padding: 45px 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pricing-area-wrapper {
+        padding-top: 0px;
+    }
+
+    .testimonial-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .counter-details-home-two {
+        margin: 30px;
+        width: 40%;
+    }
+
+    .footer-about-area {
+        margin-bottom: 30px;
+    }
+
+    .footer-navitem-area {
+        margin-top: 10px;
+    }
+
+    .program-btn {
+        text-align: left;
+        margin-top: 12px;
+    }
+
+    .proram-schedule-time-area {
+        margin: 12px 0;
+    }
+
+    .banner-clock-area {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .home-two-about-right-wrapper {
+        margin-top: 30px;
+    }
+
+    .about-page-right-wrapper {
+        margin-top: 30px;
+    }
+
+    .event-infrmation-img {
+        margin-top: 30px;
+    }
+
+    .proram-schedule-time-area {
+        border-left: none;
+        border-right: none;
+        padding-left: 0px;
+    }
+
+    .gallery-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-right-side {
+        margin-top: 30px;
+    }
+
+    .team-card-two {
+        margin-bottom: 30px;
+    }
+
+    .blog-card-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .blog-card-text h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .blog-card-text p {
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--paragraph-color);
+        font-weight: 400;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .best-service-card-wrapper::after {
+        position: initial;
+    }
+
+    .best-service-card {
+        padding: 30px;
+        border: none;
+    }
+
+    .blog-padding-right {
+        border-right: none;
+        padding-right: 0px;
+    }
+
+    .blog-bottom-content h6 {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    .blog-bottom-content h6 span {
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    #counter {
+        padding: 100px 0;
+    }
+
+    .portfolio-list-area {
+        display: block;
+    }
+
+    .service-details-right {
+        padding-top: 30px;
+    }
+
+    .service-details-head h2 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 500;
+        padding: 17px 0;
+    }
+
+    .service-details-head h3 {
+        font-weight: 500;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .service-card-details {
+        margin-bottom: 0;
+    }
+
+    .service-card-details:last-child {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .service-list {
+        padding: 24px;
+    }
+
+    .service-details-head {
+        padding-bottom: 30px;
+    }
+
+    .portfolio-details-top-right {
+        margin-top: 30px;
+    }
+
+    .portfolio-details-top-left h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 8px;
+    }
+
+    .news-list-card p {
+        font-size: 16px;
+    }
+
+    .news-list-right {
+        padding-top: 30px;
+    }
+
+    .team-details-img {
+        margin-bottom: 30px;
+    }
+
+    .event-gallery-img {
+        margin-bottom: 30px;
+    }
+
+    .event-details-right {
+        margin-top: 30px;
+    }
+
+    .event-details-wrapper h2 {
+        padding: 20px 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contact-card-wraper {
+        margin-bottom: 30px;
+    }
+
+    .contact-info-wraper {
+        margin-top: 30px;
+    }
+
+    .login-wraper {
+        margin-bottom: 30px;
+    }
+
+    .footer-navitem-area {
+        padding-left: 0px;
+    }
+
+    .news-details-area {
+        margin-top: 30px;
+    }
+
+    #common-banner {
+        padding: 120px 0px 90px 0px;
+    }
+
+    .event-schedule-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .schedule-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .conference-img {
+        display: none;
+    }
+
+    .business-conference-wrapper {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .clock-area-wrapper {
+        justify-content: center;
+    }
+
+    .conference-bottom-btn {
+        text-align: center;
+    }
+
+    .banner-text{
+        text-align: center;
+    }
+
+    .event-member {
+        justify-content: center;
+    }
+
+    .program-pills {
+        width: 100%;
+        margin: auto;
+    }
+    .testimonial-content-wrapper{
+        margin-bottom: 30px;
+    }
+
+    .product_slider_wrapper{
+        margin-bottom: 40px;
+    }
+
+    .checkout_area_bg{
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    #homepage-banner {
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+
+    .home-banner-text h1 {
+        line-height: 64px;
+        font-size: 44px;
+    }
+
+    #event-organize-section {
+        padding-top: 62px;
+    }
+
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .event-organize-highlight-text h3 {
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .schedule-list .schedule-link {
+        font-size: 22px;
+        padding: 30px;
+        text-align: center;
+        width: 40%;
+    }
+    .schedule-list .schedule-link span{
+        display: none;
+    }
+
+    .copyright-right ul {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+        margin-top: 8px;
+    }
+
+    .counter-details-home-two {
+        margin: 30px;
+        width: 100%;
+    }
+
+    .program-pills {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery-img {
+        margin-bottom: 30px;
+    }
+
+    .event-organize-heading h2 {
+        font-size: 30px;
+    }
+
+    .team-head h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .news-list-text h2 {
+        padding: 6px 0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .news-details-top-info {
+        display: block;
+    }
+
+    .news-details-date-info {
+        padding-top: 12px;
+    }
+
+    .news-details-head-text h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .news-details-head-text {
+        text-align: start;
+    }
+
+    .news-details-category p {
+        margin-bottom: 8px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .round-clock {
+        width: 85px;
+        height: 85px;
+    }
+
+    .round-clock h2 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .copyright-left{
+        text-align: center;
+    }
+
+    .copyright-right {
+        text-align: center;
+    }
+    .copyright-right ul {
+        justify-content: center;
+    }
+
+    .business-conference-wrapper h2 span {
+        display: block;
+        font-size: 34px;
+    }
+
+    .sponsor-logo {
+        border: 1px solid #dfdfdf;
+        width: 250px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .testimonial-text-wrapper h2 {
+        padding-bottom: 20px;
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    #footer-area {
+        padding: 70px 0;
+    }
+
+    .team-info h3 a {
+        font-size: 20px;
+    }
+
+    .team-info p {
+        font-size: 14px;
+    }
+
+    .error-text h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #homepage-banner {
+        padding-top: 57px;
+        padding-bottom: 53px;
+    }
+
+    .event-organize-img {
+        padding-top: 30px;
+    }
+
+    .team-padding-card {
+        margin-bottom: 40px;
+    }
+
+    .news-details-slide-wrapper {
+        padding: 0px 50px;
+    }
+
+    .news-slide-text {
+        width: 100%;
+    }
+
+    .news-slide-text h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .news-slide-text a {
+        font-size: 14px;
+    }
+
+    #homepage-banner {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .event-details-wrapper h2 {
+        padding: 18px 0;
+        font-size: 26px;
+        line-height: 37px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-banner-text h1 {
+        line-height: 37px;
+        font-size: 25px;
+    }
+
+    .slider-slide-btn .owl-carousel .owl-nav button.owl-prev {
+        position: initial;
+        margin-right: 10px;
+    }
+
+    .slider-slide-btn .owl-carousel .owl-nav button.owl-next {
+        position: initial;
+        margin-left: 10px;
+    }
+
+    .schedule-list .schedule-link {
+        padding: 16px;
+    }
+
+    .banner-clock-area {
+        justify-content: center;
+        margin-bottom: 30px;
+        display: none;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .news-list-text h2 {
+        padding: 6px 0;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .news-details-head-text h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 361px) {
+
+}
