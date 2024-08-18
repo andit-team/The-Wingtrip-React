@@ -1,4 +1,6 @@
 import React from 'react'
+// import Link
+import { Link } from 'react-router-dom'
 
 const CopyRight = () => {
   return (
@@ -8,18 +10,18 @@ const CopyRight = () => {
             <div className="row">
                 <div className="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div className="copyright-left">
-                        <p>Copyright © 2023 All Rights Reserved</p>
+                        <p>Copyright © 2024 All Rights Reserved</p>
                     </div>
                 </div>
                 <div className="co-lg-6 col-md-6 col-sm-12 col-12">
                     <div className="copyright-right">
                         <ul>
                             <li>
-                                <a href="privacy-policy.html">Privacy policy</a>
+                                <Link to="#!">Privacy policy</Link>
                             </li>
-                            <li><a href="#!">|</a></li>
+                            <li><Link to="#!">|</Link></li>
                             <li>
-                                <a href="terms-conditions.html">Terms & Conditions</a>
+                                <Link to="#!">Terms & Conditions</Link>
                             </li>
                         </ul>
                     </div>
