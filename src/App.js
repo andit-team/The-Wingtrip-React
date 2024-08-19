@@ -50,18 +50,13 @@ import ComingSoonPage from "./page/ComingSoon";
 import NewsPage from "./page/News";
 // import NewsDetails Page
 import NewsDetailsPage from "./page/NewsDetails";
-// import Portfolio Page
+// import Contact Page
 import ContactPage from "./page/Contact";
-// import Portfolio Page
-
-
-
-
-
+// import InstagramSlider
 import InstagramSlider from "./layout/Instagram";
-
+// import FooterArea
 import FooterArea from "./layout/Footer";
-
+// import CopyRight
 import CopyRight from "./layout/CopyRight";
 
 const App = () => {
